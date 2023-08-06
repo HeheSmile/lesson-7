@@ -1,0 +1,42 @@
+
+.log-in{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.box{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#submit{
+    padding: 0px 95px;
+    background-color: blue;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.input{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input input{
+    border: 0px;
+    border-bottom: 2px solid blue;
+}
+
+.input label{
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.log-in h2{
+    text-align: center;
+    text-transform: uppercase;
+}
